@@ -5,44 +5,50 @@
 body{
     margin-top:5%;
     margin-left:30%;
-    background: url(../images/wallpaperflare.com_wallpaper.jpg) no-repeat center;
+    background: url(../img/background.jpg) no-repeat center;
     background-size:cover;
 }
-html{
-    font-size: 62.5%;
-}
     h1{
-        font-family: 'Righteous', 'Helvetica', 'sans-serif'; 
-        font-size: 5rem;
-        color: rgb(175,238,238);
-        margin-left:20%;
+        font-family: 'Kablammo', 'Helvetica', 'sans-serif'; 
+        font-size: 60px;
+        color: rgb(135, 216, 120);
+        /* margin-right: 100px; */
+        margin-left: -400px; 
+        padding-left: 150px;
+        background: rgb(68, 21, 21);
+        border-radius: 50px;
     }
     h2{
-        color: rgb(255,20,175);
-        margin-left: 25%;
-        font-size:2rem;
+        font-family: 'Kablammo', 'Helvetica', 'sans-serif'; 
+        color: rgb(255, 130, 20);
+        padding-left: 30px;
+        margin-left: 80px;
+        margin-right: 450px;
+        font-size:40px;
+        background: green;
+    }   
+    .hangingMonkey{
+        position: relative;
+        top: -180px;
+        right: 300px;
     }
-    #count{
-        color: rgb(255,20,175);
-        margin-left: 5%;
-    }
-
     ul{
         height:500px;
         width:30%;
-      
         }
         .changeMe li{
-            font-family: 'Edu NSW ACT Foundation', 'Helvetica', 'sans-serif', cursive; 
+            position: relative;
+            top: -200px;
+            font-family: 'Shizuru', 'Helvetica', 'sans-serif'; 
             font-size:3rem;
-            color: rgb(255,20,175);
+            color: rgb(8, 77, 41);
             margin-left: 30%;
         
         }
     
         li.crossOut{
             text-decoration: line-through;
-            color: rgb(255,20,234);
+            color: rgb(255, 165, 20);
         }
 
     input[type=text]{
@@ -52,10 +58,16 @@ html{
     }    
 
         button{
+            font-size: 13px;
+            font-weight: 700;
             width: 150px;
             height: 45px;
             border-radius: 20px;
-            background-color: rgb(241,187,199);
+            background-color: rgb(56, 48, 23);
+            color: wheat;
+        }
+        .btnOne{
+            margin-left: 40px;
         }
         .btnTwo{
             margin-left: 3%;
