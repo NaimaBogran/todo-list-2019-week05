@@ -1,4 +1,4 @@
-const enter = document.querySelector('.btnOne');
+const enter = document.querySelector('.btnOne');//majority of this code is a mix of different past projects from old students
 const listItem = document.querySelector('#list');
 const clearAll = document.querySelector('.btnTwo');
 const clearComplete = document.querySelector('.btnThree'); 

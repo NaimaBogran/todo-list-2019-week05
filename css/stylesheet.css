@@ -50,7 +50,7 @@ body{
             text-decoration: line-through;
             color: rgb(255, 165, 20);
         }
-
+ /* the cross out function and input code were taken from a mix of past students and chatgpt */
     input[type=text]{
         padding:10px 250px 10px 10px;
         margin-right: 3%;
